@@ -4,6 +4,8 @@
 
 I will handle requirements, design, Java development, verification, documentation, and repository maintenance. My available time is approximately two hours per week.
 
+The initial version will be a Java Swing desktop application with local storage. Accounts, cloud synchronization, OCR, AI answers, and scheduled reminders are outside its scope.
+
 ## Working Agreement
 
 I will create issues for substantial tasks, make meaningful commits, and review progress weekly. Self-reviews and unfinished work will be clearly identified.

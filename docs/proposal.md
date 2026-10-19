@@ -16,11 +16,11 @@ I am the sole developer and initial user. I am responsible for requirements, des
 
 The initial version will import and display question screenshots, save course and topic information with an optional error explanation, and assign one of three statuses: Not Understood, Partially Understood, or Mastered. Students will update these statuses after review and filter records by course, topic, or status. Saved information and screenshots will remain available after the application closes.
 
-The proposed supported image formats are PNG and JPEG. Classification and understanding status are entered by the student. OCR, automatic answer generation, automatic diagnosis of understanding, and Canvas integration are outside the initial scope. Accounts, cloud synchronization, and scheduled review reminders are not included in the initial commitment.
+The supported image formats will be PNG and JPEG. Classification and understanding status are entered by the student. The initial version will be a local Java Swing desktop application. OCR, automatic answer generation, automatic diagnosis of understanding, Canvas integration, accounts, cloud synchronization, and scheduled review reminders are outside its scope.
 
 ## Feasibility
 
-Java is the language I am most familiar with. A Swing desktop interface with local storage is the current candidate because it can support file selection, image display, forms, and record lists. I have not previously developed a Java graphical interface, so this part requires learning and an early prototype. The exact storage format remains to be selected.
+Java is the language I am most familiar with. The planned Swing desktop interface and local storage support file selection, image display, forms, and record lists. I have not previously developed a Java graphical interface, so this part requires learning and an early prototype. The exact storage format remains to be selected.
 
 The initial technical milestone will demonstrate importing an image, displaying it with a record, saving the record, and reopening it. This will test the main technical assumptions before the complete interface is built. The work has not yet been performed.
 

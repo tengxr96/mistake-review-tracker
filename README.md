@@ -8,7 +8,7 @@ Students will import question screenshots, organize records by course and topic,
 
 The initial version uses manual classification. OCR and AI-generated answers are outside its scope.
 
-Java is the planned language. A Swing desktop interface and local storage are being evaluated; GUI development and data persistence require further learning.
+The initial version will be a Java Swing desktop application with local storage. Students will keep records on their own computers. Accounts and cloud synchronization are outside this version. GUI development and data persistence require further learning.
 
 Current stage: P1 proposal and requirements planning. Implementation has not started.
 

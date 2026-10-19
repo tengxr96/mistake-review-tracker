@@ -24,9 +24,13 @@ FR-05: Saved data. Priority: Must.
 
 Records, statuses, and screenshots remain available after the application closes. Acceptance: Closing the application normally and reopening it preserves the saved information and images.
 
-## Proposed Quality Requirements
+FR-06: Required information. Priority: Must.
 
-These quality targets are proposals for review before becoming final commitments.
+A new record requires a readable screenshot, a course, a topic, and one understanding status. The application must identify missing information and prevent saving an incomplete record. Acceptance: Omit each required item in turn; saving displays a relevant message and creates no record. The error explanation remains optional.
+
+## Quality Requirements
+
+These are planned quality targets for later verification, not completed test results.
 
 NFR-01: Filtering speed. Priority: Should.
 
@@ -40,8 +44,12 @@ NFR-03: Readable status. Priority: Should.
 
 Understanding status must use visible text rather than color alone. Acceptance: All three statuses remain distinguishable in grayscale.
 
+NFR-04: Save failure handling. Priority: Must.
+
+If a save fails, the application must display an error, avoid reporting success, and preserve previously saved records. Acceptance: Use a controlled unavailable-storage condition; verify that saving reports failure and earlier records remain unchanged.
+
 ## Scope
 
-The proposed image formats are PNG and JPEG. Students enter course and topic labels manually. OCR, AI-generated answers, and automatic assessment of understanding are outside the initial scope.
+The initial version is planned as a Java Swing desktop application with local storage. It supports PNG and JPEG screenshots. Students enter course and topic labels manually.
 
-The platform, storage design, image-size limit, account requirements, and review-date scheduling remain under evaluation. Cloud synchronization and user accounts are not yet project commitments.
+OCR, AI-generated answers, automatic assessment of understanding, user accounts, cloud synchronization, and scheduled review reminders are outside the initial scope. The storage format will be selected during the early prototype. Available local storage is an operating constraint; the application must handle import and save failures as described above.
