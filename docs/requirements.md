@@ -12,7 +12,7 @@ FR-02: Screenshot import. Priority: Must.
 
 Students can import a question screenshot and view it in the corresponding record. Acceptance: After saving and reopening the record, the same image is displayed.
 
-FR-03: Record details. Priority: Must.
+FR-03: Record details. Priority: Should.
 
 Each record includes a course and topic, with an optional explanation of the mistake. Acceptance: Saving and reopening a record preserves all entered details.
 
