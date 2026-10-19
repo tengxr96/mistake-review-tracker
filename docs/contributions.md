@@ -1,6 +1,6 @@
 # Individual Contribution Statement
 
-GitHub contributor: tengxr96. This is an individual project.
+GitHub contributor: Xiangrui Teng. This is an individual project.
 
 I provided the project motivation from my own study experience, selected screenshot input and the three understanding states, and identified Java as my familiar language. I created the repository and added the project overview, requirements, use cases, proposal, and work plan.
 
