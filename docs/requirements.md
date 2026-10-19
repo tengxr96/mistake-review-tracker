@@ -12,7 +12,7 @@ FR-02: Screenshot import. Priority: Must.
 
 Students can import a question screenshot and view it in the corresponding record. Acceptance: After saving and reopening the record, the same image is displayed.
 
-FR-03: Record details. Priority: Should.
+FR-03: Record details. Priority: Must.
 
 Each record includes a course and topic, with an optional explanation of the mistake. Acceptance: Saving and reopening a record preserves all entered details.
 
@@ -42,7 +42,7 @@ Importing an unsupported or unreadable image must display a clear error message 
 
 NFR-03: Readable status. Priority: Should.
 
-Understanding status must use visible text rather than color alone. Acceptance: All three statuses remain distinguishable in grayscale.
+Understanding status should use visible text rather than color alone. Acceptance: All three statuses remain distinguishable in grayscale.
 
 NFR-04: Save failure handling. Priority: Must.
 
