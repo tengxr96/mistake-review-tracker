@@ -11,3 +11,17 @@ The initial version uses manual classification. OCR and AI-generated answers are
 Java is the planned language. A Swing desktop interface and local storage are being evaluated; GUI development and data persistence require further learning.
 
 Current stage: P1 proposal and requirements planning. Implementation has not started.
+
+## Project Documents
+
+[Proposal, stakeholders, and scope](docs/proposal.md)
+
+[Requirements and acceptance criteria](docs/requirements.md)
+
+[Use cases and requirement traceability](docs/use-cases.md)
+
+[Individual work plan and risks](docs/work-plan.md)
+
+[Contribution statement and evidence](docs/contributions.md)
+
+[Documentation review issue](https://github.com/tengxr96/mistake-review-tracker/issues/1)
